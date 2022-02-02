@@ -13,26 +13,33 @@ class LatihanList extends StatelessWidget {
           ),
           body: ListView(children: <Widget>[
             Container(
-                height: 260,
-                width: 350,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    gradient: LinearGradient(
-                        colors: [Colors.purpleAccent, Colors.blueGrey])),
-                child: ClipOval(
-                  child: Image.asset(
-                    'assets/image/ootd.jpg',
-                    fit: BoxFit.cover,
-                  ),
-                )),
+              child: Text(
+                'Inspirasi OOTD!',
+                style: TextStyle(
+                    fontSize: 30,
+                    fontStyle: FontStyle.italic,
+                    fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
+              ),
+            ),
+            Container(
+              width: 500,
+              height: 500,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage('assets/image/ootd.jpg'),
+                    fit: BoxFit.cover),
+                gradient: LinearGradient(colors: [Colors.white, Colors.white]),
+                borderRadius: BorderRadius.circular(10),
+              ),
+            ),
             Container(
               width: 350,
               margin: EdgeInsets.only(top: 10),
               padding: EdgeInsets.all(10),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                gradient: LinearGradient(
-                    colors: [Colors.lightBlueAccent, Colors.lightBlueAccent]),
+                gradient: LinearGradient(colors: [Colors.white, Colors.white]),
               ),
               child: Column(
                 children: [
@@ -59,7 +66,7 @@ class LatihanList extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
-                            colors: [Colors.purpleAccent, Colors.blueGrey])),
+                            colors: [Colors.white, Colors.white])),
                     child: ClipOval(
                       child: Image.asset(
                         'assets/image/ootd.jpg',
@@ -72,8 +79,8 @@ class LatihanList extends StatelessWidget {
                   width: 300,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      gradient: LinearGradient(
-                          colors: [Colors.purpleAccent, Colors.blueGrey])),
+                      gradient:
+                          LinearGradient(colors: [Colors.white, Colors.white])),
                   child: ClipOval(
                     child: Image.asset(
                       'assets/image/ootd.jpg',
@@ -93,7 +100,7 @@ class LatihanList extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
-                            colors: [Colors.purpleAccent, Colors.blueGrey])),
+                            colors: [Colors.white, Colors.white])),
                     child: ClipOval(
                       child: Image.asset(
                         'assets/image/ootd.jpg',
@@ -106,8 +113,8 @@ class LatihanList extends StatelessWidget {
                   width: 300,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      gradient: LinearGradient(
-                          colors: [Colors.purpleAccent, Colors.blueGrey])),
+                      gradient:
+                          LinearGradient(colors: [Colors.white, Colors.white])),
                   child: ClipOval(
                     child: Image.asset(
                       'assets/image/ootd.jpg',
@@ -127,7 +134,7 @@ class LatihanList extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
-                            colors: [Colors.purpleAccent, Colors.blueGrey])),
+                            colors: [Colors.white, Colors.white])),
                     child: ClipOval(
                       child: Image.asset(
                         'assets/image/ootd.jpg',
@@ -140,8 +147,8 @@ class LatihanList extends StatelessWidget {
                   width: 300,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      gradient: LinearGradient(
-                          colors: [Colors.purpleAccent, Colors.blueGrey])),
+                      gradient:
+                          LinearGradient(colors: [Colors.white, Colors.white])),
                   child: ClipOval(
                     child: Image.asset(
                       'assets/image/ootd.jpg',
@@ -161,7 +168,7 @@ class LatihanList extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
-                            colors: [Colors.purpleAccent, Colors.blueGrey])),
+                            colors: [Colors.white, Colors.white])),
                     child: ClipOval(
                       child: Image.asset(
                         'assets/image/ootd.jpg',
@@ -174,8 +181,8 @@ class LatihanList extends StatelessWidget {
                   width: 300,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      gradient: LinearGradient(
-                          colors: [Colors.purpleAccent, Colors.blueGrey])),
+                      gradient:
+                          LinearGradient(colors: [Colors.white, Colors.white])),
                   child: ClipOval(
                     child: Image.asset(
                       'assets/image/ootd.jpg',
@@ -195,7 +202,7 @@ class LatihanList extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         gradient: LinearGradient(
-                            colors: [Colors.purpleAccent, Colors.blueGrey])),
+                            colors: [Colors.white, Colors.white])),
                     child: ClipOval(
                       child: Image.asset(
                         'assets/image/ootd.jpg',
@@ -208,8 +215,8 @@ class LatihanList extends StatelessWidget {
                   width: 300,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      gradient: LinearGradient(
-                          colors: [Colors.purpleAccent, Colors.blueGrey])),
+                      gradient:
+                          LinearGradient(colors: [Colors.white, Colors.white])),
                   child: ClipOval(
                     child: Image.asset(
                       'assets/image/ootd.jpg',
